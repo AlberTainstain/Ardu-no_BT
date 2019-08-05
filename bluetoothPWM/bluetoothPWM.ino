@@ -41,7 +41,7 @@ if(bluetooth.available()){
 
   } else if (comando.substring(0,3) == "pwm") {
 
-      analogWrite(pwm, 255/10*comando.substring(3).toInt());
+      analogWrite(pwm, 25.5*comando.substring(3).toInt());
       
   } 
 }
